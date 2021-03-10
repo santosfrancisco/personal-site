@@ -1,8 +1,24 @@
 // import App from "next/app";
 import type { AppProps /*, AppContext */ } from 'next/app';
+import Head from 'next/head';
+import ResetCSS from 'styles/reset';
+import GlobalStyle from 'styles/global';
 
 function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />;
+  return (
+    <>
+      <Head>
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500&display=swap"
+          rel="stylesheet"
+        />
+      </Head>
+      <ResetCSS />
+      <GlobalStyle />
+      <Component {...pageProps} />
+    </>
+  );
 }
 
 // Only uncomment this method if you have blocking data requirements for
