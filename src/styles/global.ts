@@ -6,14 +6,15 @@ export default createGlobalStyle`
   --secondary: #9B51E0;
   --white: #fff;
   --black: #000;
+  --font: 'Manrope', sans-serif;
 }
   * {
-    font-family: 'Fira Sans', sans-serif; 
+    font-family: var(--font); 
     box-sizing: border-box;
   }
   body {
     background: #F5F4F4;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: var(--font);
     color: var(--primary);
   }
 `;

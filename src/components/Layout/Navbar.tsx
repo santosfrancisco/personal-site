@@ -7,6 +7,7 @@ import Menu from './Menu';
 const StyledNav = styled.nav`
   display: flex;
   margin-top: 24px;
+  margin-bottom: 24px;
 `;
 
 const StyledButton = styled.button`

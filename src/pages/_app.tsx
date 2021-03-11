@@ -10,9 +10,10 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
+        <link rel="icon" type="image/png" href="/favicon.png" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
-          href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;800&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;800&display=swap"
           rel="stylesheet"
         />
       </Head>

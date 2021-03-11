@@ -22,8 +22,10 @@ const socialOptions = [
 const StyledFooter = styled.footer`
   display: flex;
   height: 104px;
-  ${props => config(props).media.sm`
+  margin-top: 24px;
+  ${props => config(props).media.md`
     height: 85px;
+  margin-top: 36px;
   `}
 `;
 
@@ -34,7 +36,7 @@ const Copyright = styled.p`
   font-size: 24px;
   line-height: 24px;
 
-  ${props => config(props).media.sm`
+  ${props => config(props).media.md`
     margin: 0;
   `}
 `;
@@ -44,13 +46,13 @@ function Footer() {
     <StyledFooter>
       <Container>
         <Row align="center" reverse={['xs']} style={{ height: '100%' }}>
-          <Col xs={4} sm={6} align={{ xs: 'center', sm: 'flex-start' }}>
+          <Col xs={4} md={6} align={{ xs: 'center', md: 'flex-start' }}>
             <Copyright>{`©${new Date().getFullYear()} Francisco Santos`}</Copyright>
           </Col>
-          <Col xs={4} sm={2}>
+          <Col xs={4} md={2}>
             <Row justify="flex-end">
               {socialOptions.map(social => (
-                <Col key={social.title} align={{ xs: 'center', sm: 'flex-end' }}>
+                <Col key={social.title} align={{ xs: 'center', md: 'flex-end' }}>
                   <a href={social.url} target="_blank">
                     <img src={social.icon} width="48px" height="48px" />
                   </a>
