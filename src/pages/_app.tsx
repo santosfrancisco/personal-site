@@ -1,8 +1,10 @@
 // import App from "next/app";
 import type { AppProps /*, AppContext */ } from 'next/app';
 import Head from 'next/head';
+import { ThemeProvider } from 'styled-components';
 import ResetCSS from 'styles/reset';
 import GlobalStyle from 'styles/global';
+import customConfig from 'styles/gridConfig';
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
@@ -10,13 +12,15 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Head>
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
-          href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;800&display=swap"
           rel="stylesheet"
         />
       </Head>
       <ResetCSS />
       <GlobalStyle />
-      <Component {...pageProps} />
+      <ThemeProvider theme={{ awesomegrid: customConfig }}>
+        <Component {...pageProps} />
+      </ThemeProvider>
     </>
   );
 }

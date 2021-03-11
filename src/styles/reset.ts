@@ -31,9 +31,9 @@ export default createGlobalStyle`
   footer, header, hgroup, menu, nav, section {
     display: block;
   }
-  body {
+  /* body {
     line-height: 1;
-  }
+  } */
   ol, ul {
     list-style: none;
   }
