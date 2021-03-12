@@ -12,6 +12,10 @@ const menuItems = [
     label: '<Portifólio />',
     url: '/portifolio',
   },
+  {
+    label: '<Blog />',
+    url: '/blog',
+  },
 ];
 
 const Menu = () => {
