@@ -1,9 +1,10 @@
 import Layout from 'components/Layout';
+import PageTitle from 'components/PageTitle';
 
 export default function Portifolio() {
   return (
     <Layout>
-      <h1>Blog</h1>
+      <PageTitle>Blog</PageTitle>
     </Layout>
   );
 }

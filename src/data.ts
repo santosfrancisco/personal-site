@@ -25,6 +25,23 @@ export const skills = [
   },
 ];
 
+export const projects = [
+  {
+    title: 'Template de CV + portifólio usando Gatsby',
+    image: 'https://santosfrancisco.github.io/images/gatsby-starter-cv.png',
+    url: 'https://www.gatsbyjs.com/starters/santosfrancisco/gatsby-starter-cv',
+    description:
+      'Template open source criado como um starter para ser utilizado com o Gatsby. Com ele você consegue criar um site pessoal com informações profissionais e uma seção para expor seu portifólio. ',
+  },
+  {
+    title: 'Grid responsivo para aplicações web React',
+    image: 'https://santosfrancisco.github.io/images/awesome-grid.png',
+    url: 'https://github.com/santosfrancisco/react-awesome-styled-grid',
+    description:
+      'Pacote open source criado para facilitar a criação de sites responsivos utilizando grid baseado em flexbox. Segue a idéia de "mobile first", e baseado no sistema "8-Point Grid" do Google Material.',
+  },
+];
+
 export const jobs = [
   {
     dateInfo: {

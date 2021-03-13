@@ -16,6 +16,26 @@ function MyApp({ Component, pageProps }: AppProps) {
           href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;800&display=swap"
           rel="stylesheet"
         />
+        // meta tags
+        {/* <!-- Primary Meta Tags --> */}
+        <title></title>
+        <meta name="title" content="" />
+        <meta name="description" content="" />
+        {/* <!-- Open Graph / Facebook --> */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://santosfrancisco.github.io/" />
+        <meta property="og:title" content="Francisco Santos" />
+        <meta property="og:description" content="Oi, eu sou o Francisco. Desenvolvedor frontend." />
+        <meta property="og:image" content="/meta-image.png" />
+        {/* <!-- Twitter --/> */}
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://santosfrancisco.github.io/" />
+        <meta property="twitter:title" content="Francisco Santos" />
+        <meta
+          property="twitter:description"
+          content="Oi, eu sou o Francisco. Desenvolvedor frontend."
+        />
+        <meta property="twitter:image" content="/meta-image.png" />
       </Head>
       <ResetCSS />
       <GlobalStyle />
