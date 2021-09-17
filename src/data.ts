@@ -12,16 +12,20 @@ export const skills = [
     value: 80,
   },
   {
-    label: 'ReactJS',
-    value: 70,
-  },
-  {
     label: 'Node',
     value: 50,
   },
   {
+    label: 'ReactJS',
+    value: 70,
+  },
+  {
     label: 'React Native',
-    value: 20,
+    value: 50,
+  },
+  {
+    label: 'Flutter',
+    value: 10,
   },
 ];
 
@@ -45,15 +49,28 @@ export const projects = [
 export const jobs = [
   {
     dateInfo: {
+      month: 'JUL',
+      year: '2021',
+      duration: 'jul/2021 até hoje',
+    },
+    jobInfo: {
+      role: 'Frontend Mobile',
+      company: 'Midway',
+      description:
+        'Faço parte da equipe de desenvolvimento do app de cartões embarcado no supperapp (e-commerce)',
+    },
+  },
+  {
+    dateInfo: {
       month: 'NOV',
       year: '2020',
-      duration: 'nov/2020 até hoje',
+      duration: 'nov/2020 até jun/2021',
     },
     jobInfo: {
       role: 'Frontend',
       company: 'RD (Raia Drogasil)',
       description:
-        'Faço parte da equipe de Saúde, responsável pelo desenvolvimento e manutenção da plataforma web de saúde.',
+        'Fiz parte da equipe de Saúde, responsável pelo desenvolvimento e manutenção da plataforma web de saúde.',
     },
   },
   {
