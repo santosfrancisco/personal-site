@@ -2548,10 +2548,10 @@ raw-body@2.4.1:
     iconv-lite "0.4.24"
     unpipe "1.0.0"
 
-react-awesome-styled-grid@^3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/react-awesome-styled-grid/-/react-awesome-styled-grid-3.1.0.tgz#9558ed2b25c005f5ee05dd284f906c8ae90644d5"
-  integrity sha512-0gcusfbhAKoAS5VNErUiG9bsT9rhBiY6tl27l3u+UOJF94QAkc/Cnx7piuFu2Thyod7UUVSKvzsJYyw8h3bltQ==
+react-awesome-styled-grid@^3.1.4:
+  version "3.1.4"
+  resolved "https://registry.yarnpkg.com/react-awesome-styled-grid/-/react-awesome-styled-grid-3.1.4.tgz#245ec032b55782752e4785c7edff1124c8760c47"
+  integrity sha512-cV3px+UleWW6z4mosSMKbSqE6i/vpnG1U2N8zWJdqEZAFmhq2XYItZ7sTBivmuit6qfKyozkZv+blkuMDiEmlw==
 
 react-dom@17.0.1:
   version "17.0.1"
